@@ -1,5 +1,5 @@
 
-# LG TV IR codes
+# LG TV
 
 tested model:
 ```
