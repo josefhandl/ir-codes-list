@@ -38,3 +38,40 @@ command= // see the list below
 0xA857    torquoise
 0x6897    magenta
 ```
+
+# Another RGB LED strip with animations
+
+tested model:
+```
+some cheap chinese RGB led strip with animations
+```
+
+```
+type=NEC
+address=0x00FF
+command= // see the list below
+```
+
+```
+0xA25D    on
+0xE21D    off
+0x629D    timer_off
+0xE01F    brightness_down
+0x22DD    brightness_up
+0x02FD    anim_flash
+0xC23D    anim_fade
+0xA857    anim_smooth
+0x42BD    2h_timer
+0x4AB5    4h_timer
+0x52AD    6h_timer
+0x906F    white
+0x6897    red
+0x9867    green
+0xB04F    blue
+0x30CF    orange
+0x18E7    dark_cyan
+0x7A85    violet
+0x10EF    yellow
+0x38C7    cyan
+0x5AA5    magenta
+```
