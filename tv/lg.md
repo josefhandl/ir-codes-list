@@ -15,6 +15,8 @@ command = // see the list below
 
 ```
 0xF708    power
+0x3BC4    power_on
+0x3AC5    power_off
 0xFD02    vol_plus
 0xFC03    vol_minus
 0xBF40    arrow_up
@@ -29,6 +31,9 @@ command = // see the list below
 0x54AB    guide
 0x6E91    ad
 0xF40B    input
+0x31CE    hdmi1
+0x33CC    hdmi2
+0x16E9    hdmi3
 0xEE11    1
 0xED12    2
 0xEC13    3
