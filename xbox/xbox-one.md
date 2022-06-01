@@ -1,0 +1,57 @@
+
+# Xbox One
+
+tested model:
+```
+Xbox One X
+```
+
+```
+bit order = LSB
+type = NEC
+address = 0xD880
+command = // see the list below
+```
+
+```
+0x9B64    power_toggle
+0xD629    power_off
+0xD52A    power_on
+0xEE11    vol_plus
+0xEF10    vol_minus
+0xF10E    mute
+0xD728    eject
+0xDF20    left
+0xDE21    right
+0xE11E    up
+0xE01F    down
+0x906F    menu
+0xDD22    ok
+0xF40B    enter
+0xDC23    exit
+0x9B64    xbox_btn
+0xFF00    0
+0xFE01    1
+0xFD02    2
+0xFC03    3
+0xFB04    4
+0xFA05    5
+0xF807    6
+0xF708    8
+0xF609    9
+0x9966    a
+0x9A65    b
+0x9768    x
+0x9867    y
+0x916E    view
+0xEA15    rewind
+0xEB14    fast_forward
+0xE41B    skip_minus/left_trigger
+0xE51A    skip_plus/right_trigger
+0xED12    left_bumper/ch_plus
+0xEC13    right_bumper/ch_minus
+0x8F70    play_pause
+0xE718    pause
+0xE916    play
+0xE619    stop
+```
