@@ -7,36 +7,37 @@ some cheap chinese RGB led strip with animations
 ```
 
 ```
-type=NEC
-address=0x00F7
-command= // see the list below
+bit order = LSB
+type = NEC
+address = 0xEF00
+command = // see the list below
 ```
 
 ```
-0xC03F    on
-0x40BF    off
-0x807F    brightness_down
-0x00FF    brightness_up
-0x20DF    red
-0xA05F    green
-0x609F    blue
-0xE01F    white
-0xD02F    anim_flash
+0xFC03    on
+0xFD02    off
+0xFE01    brightness_down
+0xFF00    brightness_up
+0xFB04    red
+0xFA05    green
+0xF906    blue
+0xF807    white
+0xF40B    anim_flash
 0xF00F    anim_strobe
-0xC837    anim_fade
+0xEC13    anim_fade
 0xE817    anim_smooth
-0x10EF    orange
-0x906F    lime
-0x50AF    light_blue
-0x30CF    orange_red
-0xB04F    cyan
-0x708F    purple
-0x08F7    peach
-0x8877    dark_cyan
-0x48B7    dark_magenta
-0x28D7    yellow
-0xA857    torquoise
-0x6897    magenta
+0xF708    orange
+0xF609    lime
+0xF50A    light_blue
+0xF30C    orange_red
+0xF20D    cyan
+0xF10E    purple
+0xEF10    peach
+0xEE11    dark_cyan
+0xED12    dark_magenta
+0xEB14    yellow
+0xEA15    torquoise
+0xE916    magenta
 ```
 
 # Another RGB LED strip with animations
@@ -47,31 +48,32 @@ some cheap chinese RGB led strip with animations
 ```
 
 ```
-type=NEC
-address=0x00FF
-command= // see the list below
+bit order = LSB
+type = NEC
+address = 0xFF00
+command = // see the list below
 ```
 
 ```
-0xA25D    on
-0xE21D    off
-0x629D    timer_off
-0xE01F    brightness_down
-0x22DD    brightness_up
-0x02FD    anim_flash
-0xC23D    anim_fade
-0xA857    anim_smooth
-0x42BD    2h_timer
-0x4AB5    4h_timer
-0x52AD    6h_timer
-0x906F    white
-0x6897    red
-0x9867    green
-0xB04F    blue
-0x30CF    orange
-0x18E7    dark_cyan
-0x7A85    violet
-0x10EF    yellow
-0x38C7    cyan
-0x5AA5    magenta
+0xBA45    on
+0xB847    off
+0xB946    timer_off
+0xF807    brightness_down
+0xBB44    brightness_up
+0xBF40    anim_flash
+0xBC43    anim_fade
+0xEA15    anim_smooth
+0xBD42    2h_timer
+0xAD52    4h_timer
+0xB54A    6h_timer
+0xF609    white
+0xE916    red
+0xE619    green
+0xF20D    blue
+0xF30C    orange
+0xE718    dark_cyan
+0xA15E    violet
+0xF708    yellow
+0xE31C    cyan
+0xA55A    magenta
 ```

@@ -7,45 +7,46 @@ UX-TB30
 ```
 
 ```
-type=NEC
-address=0x00FF
-command= // see the list below
+bit order = LSB
+type = NEC
+address = 0xFF00
+command = // see the list below
 ```
 
 ```
-0x00FF    power
-0x48B7    vol_up
-0xD02F    vol_down
-0x50AF    fade_muting
-0x58A7    arrow_up
-0x906F    arrow_left
-0xC03F    arrow_right
-0xD827    arrow_down
-0x20DF    ok
+0xFF00    power
+0xED12    vol_up
+0xF40B    vol_down
+0xF50A    fade_muting
+0xE51A    arrow_up
+0xF609    arrow_left
+0xFC03    arrow_right
+0xE41B    arrow_down
+0xFB04    ok
 0xF00F    audio_in
-0xC837    cd
-0x6897    usb_memory
-0xE01F    fm
-0x30CF    sound_mode
-0xB04F    hbs
-0x10EF    display_mode
-0x28D7    news_info
-0x609F    pty_search
-0x02FD    1
-0x22DD    2
-0x12ED    3
-0x32CD    4
-0x0AF5    5
-0x2AD5    6
-0x1AE5    7
-0x827D    8
-0xA25D    9
-0x926D    0
+0xEC13    cd
+0xE916    usb_memory
+0xF807    fm
+0xF30C    sound_mode
+0xF20D    hbs
+0xF708    display_mode
+0xEB14    news_info
+0xF906    pty_search
+0xBF40    1
+0xBB44    2
+0xB748    3
+0xB34C    4
+0xAF50    5
+0xAB54    6
+0xA758    7
+0xBE41    8
+0xBA45    9
+0xB649    0
 0xB24D    greater_equal_10
-0x807F    eco_dimmer
-0x40BF    timer
-0x18E7    // some empty button
-0xA857    rpt_rnd
-0x708F    clock
-0xA05F    display_program
+0xFE01    eco_dimmer
+0xFD02    timer
+0xE718    // some empty button
+0xEA15    rpt_rnd
+0xF10E    clock
+0xFA05    display_program
 ```
