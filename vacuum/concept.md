@@ -12,6 +12,8 @@ type = NEC
 address = 0xA35C
 command = // see the list below
 ```
+
+```
 0xAD52    up
 0xAB54    left
 0xAA55    right
